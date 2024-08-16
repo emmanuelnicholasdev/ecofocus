@@ -1,0 +1,119 @@
+/* header */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Arial";
+    width: 100%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  section {
+    padding: 25px 5%;
+    margin: 0;
+  }
+  .font{
+    font-size: 2rem ;
+  }
+
+  .font1{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 1.5rem ;
+  }
+
+  /* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    gap: 1rem;
+  }
+  .navbar a {
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: all .1s ease;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    padding: 3vh 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 100;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    transition: background-color 0.05s ease-in-out;
+    min-width: 100vh;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: green;
+  }
+  #logo2{
+    color: rgb(255, 255, 255);
+  }
+  
+.title{
+  text-align: center;
+}
+
+
+.author-info{  
+    margin-left: 200px;
+}
+.author-info div{
+    padding: 4px 0px;
+}
+
+/* footer */
+footer {
+  background: rgb(245, 255, 243);
+  padding: 48px 0;
+}
+.footer-container {
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.company-info a {
+  height: 30px;
+  margin-bottom: 24px;
+  font-weight:bolder;
+}
+.company-info p {
+  margin: 15px 0;
+  width: 300px;
+  font-weight:bolder;
+}
+
+.space{
+  margin: 100px;
+}
+.space1{
+  margin: 50px;
+}
